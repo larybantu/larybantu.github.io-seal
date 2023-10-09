@@ -1,1 +1,110 @@
+/*
+	 Organic Tabs
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+* { margin: 0; padding: 0; }
+body { 
+	font-family: "Geneva",Tahoma, sans-serif;
+	font-size: 14px;
+	background: #F0F0F0 url(../img/bg.gif);}
+html { overflow-y: scroll; }
+a { text-decoration: none; }
+a:focus { outline: 0; }
+p { font-size: 15px; margin: 0 0 20px 0; }
+#page-wrap { width: 820px; margin: auto;}
+h1 { font: bold 40px Sans-Serif; margin: 0 0 20px 0; }
 
+/* Generic Utility */
+.hide { position: absolute; top: -9999px; left: -9999px; }
+
+/*Content Order*/
+#simplegallery1 {
+	height: 250px;
+	width: 800px;
+}
+#content01 {
+	height: 350px;
+	width: 260px;
+	float: right;
+	padding: 5px;
+	border-right: 1px solid #CCC;
+	background-color: #FFF;
+	}
+#content001 {
+	height: 350px;
+	width: 245px;
+	padding: 5px;
+	border-right: 1px solid #CCC;
+	background-color: #FFF;
+}
+#contain1 {
+	height: auto;
+	width: auto;
+}
+#contain001 {
+	height: 380px;
+	width: 1004px;
+}
+#contain1 {
+	color: #000;
+	height: 360px;
+}
+#divheader {
+	background-color: #045F08;
+	color: #FFF;
+	height: 30px;
+	padding: 10px 0px 0px 0px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#content01 #project2 {
+	background-color: #DDD;
+	padding: 4px;
+}
+#content01 #indent {
+	background-color: #DDD;
+	padding: 4px;
+}
+#contain1 #content01 a {
+	text-decoration: none;
+	color: #000;
+}
+#contact {
+	border: 1px solid #CCC;
+}
+#find {
+	float: right;
+	width: 400px;
+	margin-top: -68px;
+}
+.highlite{
+	background: #045F08; color: white; padding: 5px; border: 1px solid #333;
+	}
+
+/* Specific to example one */
+
+#links { background: #eee; padding: 10px; margin: 0 0 20px 0; -moz-box-shadow: 0 0 5px #666; -webkit-box-shadow: 0 0 5px #666; }
+
+#links .nav { overflow: hidden; margin: 0 0 10px 0; }
+#links .nav li {
+	width: 200px;
+	float: left;
+	/* [disabled]margin: 0 10px 0 0; */
+	font-size: 18px;
+	font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+	text-shadow:1px 1px 1px #000;
+}
+#links .nav li.last { margin-right: 0; }
+#links .nav li a { display: block; padding: 10px; background: #111; color: white; font-size: font-family:"Myriad Pro", "Trebuchet MS", sans-serif; text-transform:uppercase; 18px; text-align: center; border: 0; }
+#links .nav li a:hover { background-color: #045F08; }
+
+#links ul { list-style: none; }
+#links ul li a { display: block; border-bottom: 1px solid #666; padding: 4px; color: #000; }
+#links ul li a:hover { background: #fe4902; color: white; }
+#links ul li:last-child a { border: none; }
+
+#links ul li.nav-one a.current, #links ul.home li a:hover { background-color: #d30000; color: white; }
+#links ul li.nav-two a.current, #links ul.about li a:hover { background-color: #d30000; color: white; }
+#links ul li.nav-three a.current, #links ul.services li a:hover { background-color: #d30000; color: white; }
+#links ul li.nav-four a.current, #links ul.projectss li a:hover { background-color: #d30000; color: white; }
